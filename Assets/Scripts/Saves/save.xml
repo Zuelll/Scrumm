@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<EmployeeDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employees>
+    <EmployeeEntry>
+      <employeeName>Kark</employeeName>
+      <employeeFriendliness>2</employeeFriendliness>
+      <employeeHelpfulness>2</employeeHelpfulness>
+      <quirk>Soziable</quirk>
+    </EmployeeEntry>
+    <EmployeeEntry>
+      <employeeName>Gork</employeeName>
+      <employeeFriendliness>2</employeeFriendliness>
+      <employeeHelpfulness>2</employeeHelpfulness>
+      <quirk>Friendly</quirk>
+    </EmployeeEntry>
+    <EmployeeEntry>
+      <employeeName>Mulkan</employeeName>
+      <employeeFriendliness>3</employeeFriendliness>
+      <employeeHelpfulness>3</employeeHelpfulness>
+      <quirk>Teamworker</quirk>
+    </EmployeeEntry>
+  </Employees>
+</EmployeeDB>
