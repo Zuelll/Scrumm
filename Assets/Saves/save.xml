@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<EmployeeDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employees>
+    <EmployeeEntry>
+      <empName>Azar</empName>
+      <description />
+      <level>0</level>
+      <sprintNum>0</sprintNum>
+      <salary>0</salary>
+      <motivation>0</motivation>
+      <talkative>0</talkative>
+      <mechanical />
+      <debugging />
+      <documentation />
+      <test />
+      <estimate>0</estimate>
+      <friendliness>0</friendliness>
+      <helpfulness>0</helpfulness>
+      <quirk>Soziable</quirk>
+    </EmployeeEntry>
+    <EmployeeEntry>
+      <empName />
+      <description />
+      <level>0</level>
+      <sprintNum>0</sprintNum>
+      <salary>0</salary>
+      <motivation>0</motivation>
+      <talkative>0</talkative>
+      <mechanical />
+      <debugging />
+      <documentation />
+      <test />
+      <estimate>0</estimate>
+      <friendliness>0</friendliness>
+      <helpfulness>0</helpfulness>
+      <quirk>Friendly</quirk>
+    </EmployeeEntry>
+    <EmployeeEntry>
+      <empName />
+      <description />
+      <level>0</level>
+      <sprintNum>0</sprintNum>
+      <salary>0</salary>
+      <motivation>0</motivation>
+      <talkative>0</talkative>
+      <mechanical />
+      <debugging />
+      <documentation />
+      <test />
+      <estimate>0</estimate>
+      <friendliness>0</friendliness>
+      <helpfulness>0</helpfulness>
+      <quirk>Teamworker</quirk>
+    </EmployeeEntry>
+  </Employees>
+</EmployeeDB>

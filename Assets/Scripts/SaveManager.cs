@@ -23,7 +23,7 @@ public class SaveManager : MonoBehaviour {
     public void Save()
     {
         XmlSerializer serializer = new XmlSerializer(typeof(EmployeeDB));
-        FileStream stream = new FileStream(Application.dataPath + "/Scripts/Saves/save.xml", FileMode.Create);
+        FileStream stream = new FileStream(Application.dataPath + "/Saves/save.xml", FileMode.Create);
         serializer.Serialize(stream, employeeDB);
         stream.Close();
     }
@@ -31,7 +31,7 @@ public class SaveManager : MonoBehaviour {
     public void Load()
     {
         XmlSerializer serializer = new XmlSerializer(typeof(EmployeeDB));
-        FileStream stream = new FileStream(Application.dataPath + "/Scripts/Saves/save.xml", FileMode.Open);
+        FileStream stream = new FileStream(Application.dataPath + "/Saves/save.xml", FileMode.Open);
         employeeDB = serializer.Deserialize(stream) as EmployeeDB;
         stream.Close();
     }
@@ -41,10 +41,22 @@ public class SaveManager : MonoBehaviour {
 [System.Serializable]       //Be able look in the inspector
 public class EmployeeEntry
 {
-    public string employeeName;     //if not public the serializer cannot look at it
-    public int employeeFriendliness;
-    public int employeeHelpfulness;
+    public string empName;     //if not public the serializer cannot look at it
+    public string description;
+    public int level;
+    public int sprintNum;
+    public int salary;
+    public int motivation;
+    public int talkative;
+    public float[] mechanical;
+    public float[] debugging;
+    public float[] documentation;
+    public float[] test;
+    public float estimate;
+    public float friendliness;
+    public float helpfulness;
     public Material quirk;
+
 }
 
 
